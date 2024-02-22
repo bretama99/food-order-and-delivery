@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "400942120127",
+    "firebase_url": "https://optifoodflutter-3f03a-default-rtdb.firebaseio.com",
+    "project_id": "optifoodflutter-3f03a",
+    "storage_bucket": "optifoodflutter-3f03a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400942120127:android:c2832b5f20da0d6c3f5a0a",
+        "android_client_info": {
+          "package_name": "com.example.optifood_kitchen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5uWuKePOWO52ZhQ4u0wnz49MeJaj6G6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400942120127:android:1c121e12c26274913f5a0a",
+        "android_client_info": {
+          "package_name": "com.optifood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5uWuKePOWO52ZhQ4u0wnz49MeJaj6G6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

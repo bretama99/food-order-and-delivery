@@ -1,0 +1,251 @@
+{
+    "password": "Wachtwoord"
+    "login": "Inloggen"
+    "email": "E-mail"
+    "forgotPassword": "Wachtwoord vergeten?"
+    "enterYourLisenceKey": "Voer uw licentiesleutel in..."
+    "envoyer": "Verzenden"
+    "pleaseEnterLastName": "Vul uw achternaam in"
+    "lastName": "Achternaam"
+    "firstName": "Voornaam"
+    "company": "Bedrijf"
+    "pleaseEnterPhoneNumber": "Vul uw telefoonnummer in"
+    "phoneNumber": "Telefoonnummer"
+    "pleaseEnterAddress": "Vul uw adres in"
+    "address": "Adres"
+    "name": "Naam"
+    "save": "Opslaan"
+    "confirmation": "Bevestiging"
+    "customerAlreadyExistWithFollowingDetails": "Klant bestaat al met de volgende gegevens"
+    "phone": "Telefoon"
+    "continueWithExistingContact": "Doorgaan met bestaand contact"
+    "updateExistingContact": "Bestaand contact bijwerken"
+    "addNewAddressUnderExistingContact": "Nieuw adres toevoegen onder bestaand contact"
+    "pleaseEnterDate": "Vul een datum in"
+    "selectDate": "Selecteer datum"
+    "pleaseSelectPaymentMode": "Selecteer een betaalwijze"
+    "paymentMode": "Betaalwijze"
+    "comment": "Opmerking"
+    "next": "Volgende"
+    "pleaseEnterCompanyName": "Vul de bedrijfsnaam in"
+    "companyName": "Bedrijfsnaam"
+    "pleaseEnterAddress": "Vul het adres in"
+    "delete": "Verwijderen"
+    "cancel": "Annuleren"
+    "areYouSureToDeleteCompany": "Weet u zeker dat u het bedrijf wilt verwijderen?"
+    "areYouSureToDeleteContact": "Weet u zeker dat u het contact wilt verwijderen?"
+    "eatIn": "Eten in het restaurant"
+    "takeAway": "Afhalen"
+    "service": "Service"
+    "eatInOrToTakeAway": "Eten in het restaurant of afhalen?"
+    "areYouSureYouWantToDelete": "Weet u zeker dat u wilt verwijderen?"
+    "somethingWentWrongTryAgain": "Er is iets misgegaan. Probeer het opnieuw."
+    "comment:": "Opmerking:"
+    "add": "Toevoegen"
+    "table": "Tafel"
+    "enterTableNumber:": "Voer tafelnummer in:"
+    "areYouSureYouWantToDelete": "Weet u zeker dat u wilt verwijderen?"
+    "manager": "Manager"
+    "pleaseEnterTheDiscountValue": "Voer de korting in"
+    "c": "C"
+    "free": "Gratis"
+    "ok": "OK"
+    "totalPrice": "Totaalprijs"
+    "order": "Bestelling"
+    "enterOrderName:": "Voer de bestellingsnaam in:"
+    "offert": "Gratis"
+    "pleaseSelectLaterTime": "Selecteer een latere tijd"
+    "pleaseConfirm": "Bevestig alstublieft"
+    "areYouSureToRemoveTheOrder": "Weet u zeker dat u de bestelling wilt verwijderen?"
+    "yes": "Ja"
+    "no": "Nee"
+    "restaurant": "Restaurant"
+    "delivery": "Levering"
+    "pleaseEnterAttributeName": "Vul de attribuutnaam in"
+    "attributeName": "Attribuutnaam"
+    "displayName": "Weergavenaam"
+    "enterPrice": "Voer een prijs in"
+    "price": "Prijs"
+    "buttonBackgroundColor": "Achtergrondkleur knop"
+    "done": "Gereed"
+    "pleaseEnterAttributeCategoryName": "Vul de naam van de attribuutcategorie in"
+    "attributeCategoryName": "Naam van attribuutcategorie"
+    "pleaseEnterCategoryName": "Vul de categorienaam in"
+    "categoryName": "Categorienaam"
+    "hideInKitchen": "Verbergen in keuken"
+    "makeAttributesMandatory": "Attributen verplicht maken"
+    "productName": "Productnaam"
+    "description": "Beschrijving"
+    "allergens": "Allergenen"
+    "price€PerOrderType": "Prijs per bestellingstype"
+    "default": "Standaard"
+    "attributes": "Attributen"
+    "stock": "Voorraad"
+    "attributesCategories": "Attribuutcategorieën"
+    "selectAll": "Alles selecteren"
+    "productInStock": "Product op voorraad"
+    "activateStockManagement": "Voorraadbeheer activeren"
+    "dailyQuantityLimit": "Dagelijkse hoeveelheidslimiet"
+    "value": "Waarde"
+    "areYouSureToDeleteCategory": "Weet u zeker dat u de categorie wilt verwijderen?"
+    "activated": "Geactiveerd"
+    "deactivated": "Gedeactiveerd"
+    "pleaseEnterName": "Voer een naam in"
+    "pleaseEnterEmail": "Voer een e-mailadres in"
+    "pleaseEnterPassword": "Voer een wachtwoord in"
+    "areYouSureToDeleteUser": "Weet u zeker dat u de gebruiker wilt verwijderen?"
+    "location...": "Locatie..."
+    "label": "Label"
+    "orders": "Bestellingen"
+    "booking": "Reservering"
+    "maps": "Kaarten"
+    "message": "Bericht"
+    "chat": "Chat"
+    "report": "Rapport"
+    "management": "Beheer"
+    "settings": "Instellingen"
+    "logout": "Uitloggen"
+    "version3.0.1": "Versie 3.0.1"
+    "fieldCanNotBeEmpty": "Veld kan niet leeg zijn"
+    "invalid": "Ongeldig"
+    "price": "prijs"
+    "clients": "Klanten"
+    "deliveryMen": "Leveringsmannen"
+    "pleaseEnterValue": "Voer een waarde in"
+    "totalOrders": "Totaal aantal bestellingen"
+    "totalAmount": "Totaalbedrag"
+    "attributeName": "Attribuutnaam"
+    "reservationDate": "Reserveringsdatum"
+    "reservationTime": "Reserveringstijd"
+    "pleaseEnterReservationTime": "Voer de reserveringstijd in"
+    "numberOfPersons": "Aantal personen"
+    "pleaseEnterNumberOfPersons": "Voer het aantal personen in"
+    "activateDeliveryFee": "Activeren van bezorgkosten"
+    "Delivery Fee": "Bezorgkosten"
+    "minimumOrderAmountToExpectDeliveryFee": "Minimale bestelwaarde voor bezorgkosten"
+    "deliveryFee": "Bezorgkosten"
+    "activateNightFeeForRestaurantOrder": "Activeer 'nacht'-toeslag voor restaurantbestelling"
+    "activateNightFeeForDeliveryOrder": "Activeer 'nacht'-toeslag voor bezorgbestelling"
+    "nightFee": "Nachttoeslag"
+    "nightModeStartTime": "Starttijd nachtmodus"
+    "nightModeEndTime": "Eindtijd nachtmodus"
+    "seeMore": "Meer zien"
+    "partners": "Partners"
+    "orderTypes": "Bestellingstypes"
+    "totalAmount": "Totaalbedrag"
+    "totalOrders": "Totaal aantal bestellingen"
+    "selectStartDate": "Selecteer begindatum"
+    "selectEndDate": "Selecteer einddatum"
+    "clickCollect": "Klik & Afhalen"
+    "pointOfSale": "Verkooppunt"
+    "uberEats": "Uber Eats"
+    "justEat": "Just Eat"
+    "deliveroo": "Deliveroo"
+    "totalCustomers": "Totaal aantal klanten"
+    "totalProducts": "Totaal aantal producten"
+    "startTime": "Starttijd"
+    "endTime": "Eindtijd"
+    "minute": "Minuut"
+    "saleCategories": "Verkoop / Categorieën"
+    "toP3ProductsSold": "TOP 3 Verkochte producten"
+    "selectStartdDate": "Selecteer startdatum"
+    "eatInOrToTakeAway": "Eten in of meenemen"
+    "intervalReport": "Intervalrapport"
+    "categoryReport": "Categorierapport"
+    "orderReport": "Bestellingsrapport"
+    "search": "Zoeken"
+    "products": "Producten"
+    "channels": "Kanalen"
+    "search": "Zoeken"
+    "pleaseEnterValidEmail": "Voer een geldig e-mailadres in"
+    "selectCurrency": "Selecteer valuta"
+    "selectLanguage": "Selecteer taal"
+    "selectSymbolLocation": "Selecteer locatie symbool"
+    "right": "Rechts"
+    "selectThousandsSeparator": "Selecteer duizendenscheidingsteken"
+    "none": "Geen"
+    "selectDecimalSeparator": "Selecteer decimaalscheidingsteken"
+    "selectDateFormat": "Selecteer datumnotatie"
+    "selectTimeFormat": "Selecteer tijdsnotatie"
+    "manager": "Manager"
+    "product(s)": "Product(en)"
+    "noFoodSelectedForOrder": "Geen eten geselecteerd voor bestelling"
+    "noAttributeFound": "Geen attribuut gevonden"
+    "outOfStock": "Niet op voorraad"
+    "customer": "Klant"
+    "address": "Adres"
+    "paymentMode": "Betaalmethode"
+    "orderName": "Bestelnaam"
+    "tableNumber": "Tafelnummer"
+    "type": "Type"
+    "sender": "Afzender",
+    "time": "Tijd",
+    "total": "Totaal",
+    "client": "Klant",
+    "deliveryBoy": "Leveringspersoon",
+    "users": "Gebruikers",
+    "saleUsers": "Verkoop / Gebruikers",
+    "deliveriesDeliveryMan": "Leveringen / Leveringspersoon",
+    "saleChannels": "Verkoopkanalen",
+    "paymentDelivery": "Betalingslevering",
+    "cash": "Contant",
+    "creditCard": "Creditcard",
+    "cheque": "Cheque",
+    "platform": "Platform",
+    "payment": "Betaling",
+    "gluten": "Gluten",
+    "peanuts": "Pinda's",
+    "treenuts": "Boomnoten",
+    "celery": "Selderij",
+    "mustard": "Mosterd",
+    "eggs": "Eieren",
+    "milk": "Melk",
+    "sesame": "Sesam",
+    "fish": "Vis",
+    "crustaceans": "Schaaldieren",
+    "molluscs": "Weekdieren",
+    "soya": "Soja",
+    "sulphites": "Sulfieten",
+    "lupin": "Lupine",
+    "mealVoucher": "Maaltijdcheque",
+    "paymentOptions": "Betalingsmogelijkheden",
+    "notifications": "Meldingen",
+    "myAccount": "Mijn account",
+    "termsAndConditions": "Algemene voorwaarden",
+    "localization": "Lokalisatie",
+    "printing": "Afdrukken",
+    "checkForUpdates": "Controleren op updates",
+    "licenseKey": "Licentiesleutel",
+    "troubleshoot": "Problemen oplossen",
+    "discussions": "Discussies",
+    "myProfile": "Mijn profiel",
+    "restaurantInfo": "Restaurantinformatie",
+    "legalNotice": "Juridische kennisgeving",
+    "privacyPolicy": "Privacybeleid",
+    "cguv": "Algemene Gebruiksvoorwaarden",
+    "printerOPTI-BT80I": "Printer OPTI-BT80I",
+    "activateForRestaurant": "Activeren voor restaurant",
+    "activateForDelivery": "Activeren voor bezorging",
+    "principalTicket": "Hoofdticket",
+    "orderNumberTicket": "Bestelnummerticket",
+    "numberOfTicket": "Aantal tickets",
+    "restaurantMenu": "Restaurantmenu",
+    "customerManagement": "Klantenbeheer",
+    "userManagement": "Gebruikersbeheer",
+    "optifoodManagement": "Optifoodbeheer",
+    "aPIIntegration": "API-integratie",
+    "menuManagement": "Menubeheer",
+    "productManagement": "Productbeheer",
+    "productAttributes": "Productkenmerken",
+    "customerManagement": "Klantenbeheer",
+    "companyManagement": "Bedrijfsbeheer",
+    "managerManagement": "Managerbeheer",
+    "deliveryBoyManagement": "Beheer van bezorgjongens",
+    "waiterManagement": "Bedieningspersoneelbeheer",
+    "takeawayMode": "'Afhaal' modus",
+    "eatInMode": "'Hier eten' modus",
+    "tableManagement": "Tafelbeheer",
+    "deliveryMode": "'Bezorging' modus",
+    "deliveryFee": "Bezorgkosten",
+    "nightModeManagement": "'Nacht' modus beheer"
+}

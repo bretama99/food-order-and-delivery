@@ -1,0 +1,28 @@
+import 'package:dio/dio.dart';
+
+import '../data_models/attribute_category_model.dart';
+import '../database/attribute_category_dao.dart';
+import '../utils/constants.dart';
+
+class LoginApi{
+  static String OPTIFOOD_DATABASE='optifood_management';
+
+  void _loginFromServer(LoginModel loginModel)async{
+    final dio = Dio();
+    dio.options.headers['X-TenantID'] = OPTIFOOD_DATABASE;
+
+      var formData;
+        formData = FormData.fromMap({
+          'attributeCategoryName': attributeCategoryModel.name,
+          'color': attributeCategoryModel.color,
+          'position': attributeCategoryModel.position,
+        });
+      var response = await dio.post(ServerData.OPTIFOOD_BASE_URL+'/api/attribute-category',
+        data: formData,
+      );
+      var singleData = AttributeCategoryModel.fromJsonServer(response.data);
+      attributeCategoryModel.isSyncedOnServer=true;
+      attributeCategoryModel.serverId=singleData.serverId;
+      await AttributeCategoryDao().updateAttributeCategory(attributeCategoryModel);
+  }
+}

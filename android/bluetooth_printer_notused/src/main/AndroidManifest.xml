@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.programminglife.bluetoothprinter">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!--android:label="@string/app_name"-->
+    <application
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SelectPrinterActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
+        <service android:name=".BackgroundPrintService"/>
+    </application>
+
+</manifest>

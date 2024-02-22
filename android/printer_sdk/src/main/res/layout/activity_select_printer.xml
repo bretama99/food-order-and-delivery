@@ -1,0 +1,178 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity" >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="@color/option_screen_color">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/id_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:textAlignment="center">
+
+            <!-- <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/app_name"
+                  android:layout_gravity="center"
+                  android:textSize="25sp"/>
+  -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/img_toolbar_logo"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/optifood_logo_app"/>
+            </RelativeLayout>
+            <!-- <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:src="@mipmap/optifood_logo_app"/>-->
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_below="@id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llport"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/connetpor_selector"
+            android:orientation="horizontal"
+            >
+
+            <Spinner
+                android:id="@+id/connectport"
+                android:layout_width="60dp"
+
+                android:layout_marginLeft="3dp"
+                android:layout_height="match_parent"
+                android:entries="@array/port"
+                android:background="@drawable/spiner_selector"
+                android:spinnerMode="dropdown"
+                />
+            <Button
+                android:id="@+id/buttonSB"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:visibility="visible"
+                style="@style/ButtonText"
+                android:text="@string/sb" />
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:id="@+id/showET"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/hint" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_print_copies"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/connetpor_selector"
+            android:text="1"
+            android:hint="@string/print_copies_hint"
+            android:paddingLeft="9dp"/>
+
+        <Button
+            android:id="@+id/buttonConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonText"
+            android:enabled="true"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/connect" />
+        <Button
+            android:id="@+id/buttonDisconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            style="@style/ButtonText"
+            android:visibility="gone"
+            android:text="@string/discon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/buttonpos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            style="@style/ButtonText"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Print Ticket" />
+
+        <Button
+            android:id="@+id/button76"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            style="@style/ButtonText"
+            android:text="@string/start_76_activity" />
+        <Button
+            android:id="@+id/buttonTsc"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            style="@style/ButtonText"
+            android:text="@string/start_tsc_activity" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
